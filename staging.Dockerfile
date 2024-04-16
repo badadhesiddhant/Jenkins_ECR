@@ -1,5 +1,5 @@
 FROM nginx
-MAINTAINER Mahmoud Gamal <mhmoudgmal.89@gmail.com>
+MAINTAINER Jenkins <siddhantbadadhe1@gmail.com>
 
 COPY dist/index.html /usr/share/nginx/html
 COPY dist/* /usr/share/nginx/html/
